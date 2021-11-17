@@ -30,4 +30,6 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Image', name: 'image'}, widget: 'image', media_library: config: multiple: true}
+      - { label: 'Description', name: 'description', widget: 'text'}
+      - { label: 'Image', name: 'image'}, widget: 'image', multiple: true}
+      
