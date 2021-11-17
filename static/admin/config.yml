@@ -37,6 +37,8 @@ collections:
   - label: "Testimonials"
     name: "testimonials"
     widget: "list"
+    folder: 'content/files'
+    format: 'frontmatter'
     summary: '{{fields.quote}} - {{fields.author.name}}'
     fields:
       - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
