@@ -40,8 +40,6 @@ collections:
     folder: 'content/files'
     format: 'frontmatter'
     create: true
-    preview_path: blog/{{year}}/{{month}}/{{title}}
-    preview_path_date_field: published_at
     summary: '{{fields.quote}} - {{fields.author.name}}'
     fields:
       - {label: 'Quote', name: 'quote', widget: 'string', default: "Everything is awesome!"}
@@ -49,5 +47,5 @@ collections:
         name: author
         widget: object
         fields:
-          - {label: Name, name: name, widget: string", default: "Emmet"}
-          - {label: Avatar, name: avatar, widget: image", default: "/images/sadie-dog-2.jpg"}
+          - {label: Name, name: name, widget: string, default: "Emmet"}
+          - {label: Avatar, name: avatar, widget: image, default: "/images/sadie-dog-2.jpg"}
