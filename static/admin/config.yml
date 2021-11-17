@@ -49,3 +49,6 @@ collections:
         fields:
           - {label: Name, name: name, widget: string, default: "Emmet"}
           - {label: Avatar, name: avatar, widget: image, default: "/images/sadie-dog-2.jpg"}
+        fields:
+          - {label: Name, name: name, widget: string, default: "Emmet"}
+          - {label: Avatar, name: avatar, widget: image, default: "/images/sadie-dog-2.jpg"}
