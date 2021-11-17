@@ -40,6 +40,8 @@ collections:
     folder: 'content/files'
     format: 'frontmatter'
     create: true
+    preview_path: blog/{{year}}/{{month}}/{{title}}
+    preview_path_date_field: published_at
     summary: '{{fields.quote}} - {{fields.author.name}}'
     fields:
       - {label: 'Quote', name: 'quote', widget: 'string', default: "Everything is awesome!"}
