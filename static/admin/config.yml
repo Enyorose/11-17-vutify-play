@@ -42,10 +42,10 @@ collections:
     create: true
     summary: '{{fields.quote}} - {{fields.author.name}}'
     fields:
-      - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+      - {label: 'Quote', name: 'quote', widget: 'string', default: "Everything is awesome!"}
       - label: Author
         name: author
         widget: object
         fields:
-          - {label: Name, name: name, widget: string"}
-          - {label: Avatar, name: avatar, widget: image"}
+          - {label: Name, name: name, widget: string", default: "Emmet"}
+          - {label: Avatar, name: avatar, widget: image", default: "/images/sadie-dog-2.jpg"}
