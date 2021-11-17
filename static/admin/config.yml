@@ -33,4 +33,11 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text'}
       - { label: 'Image', name: 'image', widget: 'image', multiple: true}
-      
+  
+  - name: 'recipe'
+    label: 'Recipe'
+    collapsed: false
+    widget: "list"
+    fields:
+      - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+      - {label: Author, name: author, widget: string }    
