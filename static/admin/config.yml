@@ -61,29 +61,28 @@ collections:
               default: "/images/sadie-dog-2.jpg",
             }
 
-      - name: "recipe"
-        label: "Recipe"
-        folder: "content/recipe"
-        format: "frontmatter"
-        create: true
-        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-        widget: "object"
-        editor:
-          preview: true
-        summary: ""
+    #recipe maker
+  - name: "recipe"
+    label: "Recipe"
+    folder: "content/recipe"
+    format: "frontmatter"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    widget: "object"
+    editor:
+      preview: true
+    summary: ""
+    fields:
+      - { label: "Recipe Name", name: "recipe-name", widget: "string" }
+      - { label: "Chef", name: "chef", widget: "string" }
+      - label: "Ingredients"
+        name: "ingredents"
+        widget: "list"
         fields:
-          - { label: "Recipe Name", name: "recipe-name", widget: "string" }
-          - { label: "Chef", name: "chef", widget: "string" }
-          - label: "Ingredients"
-            name: "ingredents"
-            widget: "list"
-            fields:
-              - name: "item"
-                label: "Item"
-                widget: "string"
-              - name: "amount"
-                label: "Amount"
-                widget: "number"
-                value:_type: "float"
-                min: 0
-          - { label: "Image", name: "image", widget: "image", multiple: true }
+          - name: "item"
+            label: "Item"
+            widget: "string"
+          - name: "amount"
+            label: "Amount"
+            widget: "string"
+      - { label: "Image", name: "image", widget: "image", multiple: true }
