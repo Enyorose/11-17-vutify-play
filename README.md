@@ -1,3 +1,13 @@
+# Cpnt200-a2
+- Jessica Watson
+## Where can you find my project?
+- [My repo](https://github.com/Enyorose/cpnt200-a2/)
+- [My Netlify](https://objective-leakey-49b1f4.netlify.app/)
+## Some Challenges
+- One of the main things I learned in this assignment is to be careful when renaming git repo's it will disconnect your netlify site and render it broke. You then have to remove it from your git hub and reinicialize it.
+## Attributions
+- Photo of my dog by [me](https://www.picturemealways.ca/fashion/) 
+
 # 11-17-vutify-playground
 
 ## Build Setup
